@@ -1,0 +1,507 @@
+#homeimage{
+    width: 100%;
+    height: 10%;
+    position: relative;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("images/6.jpg");
+  
+  
+
+  min-height: 678px;
+
+  /* Center and scale the image nicely */
+  background-position:center ;
+  background-repeat: no-repeat;
+  background-size: auto ;
+
+  /* Needed to position the navbar */
+  position: relative;
+
+  
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: -10px;
+  width: 300% !important;
+  
+
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  
+  width: auto;
+  margin-right: -243px !important;
+  margin-top: 20px;
+  text-align: center !important;
+  
+  
+}
+
+/* Navbar links */
+.topnav a {
+  float: right;
+  color: white !important;
+  padding-top: 27px;
+  padding-right: 36px;
+  text-decoration: none;
+ 
+  font-size:15px;
+  font-weight: 100;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+  
+}
+
+
+.dropdown-item:focus, .dropdown-item:hover {
+  text-decoration: none;
+  background-color: white;
+  color: black !important;
+}
+
+
+#logo{
+
+  
+  text-align: left !important;
+  width: 9% !important;
+   margin-left: -52%;
+
+}
+
+
+
+.sideicon{
+  float: right !important;
+  text-align: end !important;
+  margin-right: -26%;
+ position: relative;
+  bottom: -242px;
+ width: 60%;
+box-sizing: none !important;
+}
+
+
+
+
+.fa{
+
+  padding-bottom: 5%;
+  padding-right: -5%;
+}
+
+
+.navbar-brand img{
+    width: 20%;
+}
+
+.navb{
+
+  height: 5%;
+}
+
+.text {
+  font-size: 100%;
+  margin-top:15%;
+  margin-left: 53%;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: black;
+ 
+}
+
+.text p{
+
+      margin-left: 2%;
+      margin-top: -3%;
+
+
+}
+ :root {
+  --mainColor:black;
+}
+
+
+
+.text a {
+  background:
+     linear-gradient(
+       to bottom, var(--mainColor) 0%,
+       var(--mainColor) 100%
+     );
+    background-position:0%  100%;
+    background-repeat: repeat-x;
+    background-size: 1px 1px;
+  color:pa;
+  text-decoration: none;
+  transition: background-size .2s;
+  margin-left: -34px;
+}
+
+a:hover {
+  background-size: 4px 50px;
+}
+
+
+#cart{
+  width: 5%;
+}
+
+
+.products{
+
+  text-align: center;
+  margin-left: 7%;
+  width: 10% !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The navbar */
+.topnav2 {
+  overflow: hidden;
+  
+  width: auto;
+ 
+  margin-right: -1 !important;
+  margin-left: -3%;
+  margin-top: 1%;
+  background-color: palevioletred;
+ 
+  
+}
+
+/* Navbar links */
+.topnav2 {
+  
+  color: rgb(0, 0, 0) !important;
+  padding-top: 15px;
+  padding-right: 36px;
+  margin-top: -1%;
+  
+  text-decoration: none;
+ 
+  font-size:15px;
+  font-weight: 100;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+  
+}
+
+topnav2 a {
+  float: right;
+  margin-left: -40%;
+  width: 100%;
+}
+ 
+.logo2{
+  float: left;
+ 
+}
+
+.logo2 img{
+  width: 21%;
+  margin-left: 25%;
+  margin-top: 2%;
+}
+.menu a{
+float: right; ;
+  color: white;
+  
+  font-size: 10px;
+padding: 2%;
+}
+
+.container2{
+
+  margin-top: -1.5%;
+}
+
+.dropdown-menu{
+  background-color: palevioletred !important;
+}
+
+
+.dropdown-menu a:hover{
+
+color: black;
+
+
+}
+
+#about{
+
+ width: 30%;
+margin-left: 35%;
+ margin-top: 5%;
+}
+
+.model img{
+
+  width: 30%;
+  float: right;
+  margin-right: 113px;
+  margin-top: -3%;
+
+}
+
+.abouttext p{
+  padding: 2%;
+
+}
+
+.abouttext{
+  padding: 2%;
+  margin: 2%;
+}
+
+#NewArrivals
+{
+
+  width: 30%;
+ margin-left: 35%;
+  margin-top: 5%;
+ }
+
+ #QuickView{
+
+  background-color: palevioletred;
+  border: none;
+  height: 45% !important;
+  width: 40% !important;
+  margin-left: 136px;
+  margin-top: -36px;
+
+}
+.description{
+
+float: right;
+margin-left: 150%;
+border: 2px solid red;
+
+
+
+}
+
+#main{
+
+  width:100% !important;
+ 
+ 
+}
+
+#Addtocart{
+
+  background-color: palevioletred;
+  border: none;
+  height: 45% !important;
+  width: 40% !important;
+  margin-left: 19px;
+  
+}
+
+.img-event img{
+
+  margin-left: 4%;
+}
+
+#bexampleModalLong{
+  height: 700px !important;
+  width: 900px !important;
+}
+
+#car p{
+  float: right;
+}
+
+.item{
+  width: 10% !important;
+
+  
+ 
+}
+
+.form-control{
+  width: 49% !important;
+  display: inline !important;
+}
+
+.textq label{
+padding-right: 33% !important;
+text-align: center !important;
+
+}
+.textp{
+
+ 
+}
+
+.texth p{
+  margin-top: -3% !important;
+}
+.texth {
+
+  padding-top: -20%;
+}
+
+
+#Button1 {
+
+  margin-top:-60%;
+  
+  margin-left: -2px;
+  margin-right: 4px;
+  display: inline !important;
+  background-color: palevioletred;
+  border: none;
+  }
+
+#Button1 i{
+  margin-left: -18% !important;
+}
+#button2{
+  background-color: palevioletred;
+  border: none;
+}
+
+
+#CAROUSEL{
+  margin-left: 3% !important;
+  display: inline;
+}
+
+.container{
+   display: inline;
+}
+
+.col-md-3{
+
+  padding-left: 6% !important;
+}
+
+
+#casuals{
+
+  width: 23%;
+ margin-left: 35%;
+  margin-top: 29%;
+  margin-bottom: 5%;
+ }
+
+ 
+
+ #formals{
+
+  width: 23%;
+ margin-left: 35%;
+  
+  margin-bottom: 5%;
+ }
+
+
+
+
+
+
+
+
+
+
+ .form-control{
+width: 92% !important;;
+ }
+
+ .btn-unique{
+   background-color: palevioletred !important;
+ }
+ 
+ .PopC{
+margin-top: -8% !important;
+color: palevioletred;
+ }
+
+ .iconz{
+   background-color: palevioletred !important;
+   width: 100.1%;
+  }
+
+ .iconz a{
+   float: left;
+   color: white !important;
+ }
+
+#write{
+  color: palevioletred;
+}
+
+
+.heading{
+  padding-bottom: 9% !important;
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+footer{
+	background-color:palevioletred;
+	padding: 7px 0px;
+  margin-top: 27px;
+  margin-bottom: -90px;
+ text-align: center;
+padding-left: 31%;
+
+}
+
+footer .menu li a{
+	color:white;
+	padding:10px;
+	display: inline !important;
+	text-decoration:none;
+}
+
+
+.footext a{
+ color: white;
+ padding: -5px;
+ padding-right: 26px;
+
+}
+
+
+.text-center{
+  display: flex;
+  flex-direction: row;
+}
+
+.shopcart{
+  margin-top: -131%;
+ 
+}
+.sticky{
+  position: -webkit-sticky;
+  position: sticky;
+  margin-top: -131%;
+
+}
